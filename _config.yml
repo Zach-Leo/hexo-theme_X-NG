@@ -360,7 +360,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: a90cc332ec605f3a1d0dd6613845e6eb
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -472,11 +472,11 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: 117515377
+#google_analytics: 117515377
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-#bing_site_verification:
+#bing_site_verification: 
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -611,7 +611,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
