@@ -1,0 +1,77 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+
+<title>Random Error Page a Flat Responsive Widget Template :: W3layouts</title>
+
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Random Error Page Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<!-- //Meta-Tags -->
+
+<!-- Fonts -->
+<link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<!-- //Fonts -->
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+	<div class="w3layout-agileits">
+	<h4>Oops! Page is GONE!</h4>
+	<h3>But you still have your cat</h3>
+	<div id = "refresh"><center><img src="https://source.unsplash.com/1920x1080/?cat" width="60%"></center></div>
+	<a href="./404.html"><i id = "button1" class="fa fa-angle-double-left" aria-hidden="true"></i>Return Home</a>
+	</div>
+
+	<div class="w3footeragile">
+		<p> &copy; 2017 Random Error Page . All Rights Reserved | Design by <a href="http://w3layouts.com" target="_blank">W3layouts</a></p>
+	</div>
+<script type="text/javascript">
+    var a_idx = 0;
+    jQuery(document).ready(function($) {
+        $("body").click(function(e) {
+            var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+            var $i = $("<span/>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+                y = e.pageY;
+            $i.css({
+                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                "top": y - 20,
+                "left": x,
+                "position": "absolute",
+                "font-weight": "bold",
+                "color": "#ff1e21"
+            });
+            $("body").append($i);
+            $i.animate({
+                    "top": y - 180,
+                    "opacity": 0
+                },
+                2000,
+                function() {
+                    $i.remove();
+                });
+        });
+    });
+</script>
+
+</body>
+<!-- //Body -->
+</html>
